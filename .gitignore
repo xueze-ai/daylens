@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+
+# ---- PyInstaller / local build outputs ----
+/DayLens/build/
+/DayLens/build-v104/
+/DayLens/dist/
+
+# ---- Pre-built release binaries ----
+# Publish these as GitHub Releases instead of committing them:
+# https://github.com/<owner>/<repo>/releases
+/DayLens_v*/
+/DayLens_v*-Windows-x64.zip
+
+# ---- Local configuration, databases, logs (never commit personal data) ----
+config.json
+*.db
+*.db-wal
+*.db-shm
+*.corrupt-*
+logs/
+
+# ---- OS / editor ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
